@@ -1,0 +1,15 @@
+* text=auto
+
+*.png binary
+*.jpg binary
+*.ico binary
+*.exe binary
+*.wav binary
+
+*.cpp text eol=crlf
+*.h text eol=crlf
+*.rc text eol=crlf
+*.cmake text eol=crlf
+CMakeLists.txt text eol=crlf
+*.md text eol=lf
+*.yml text eol=lf

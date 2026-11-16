@@ -1,0 +1,30 @@
+# ---------- 构建产物 ----------
+/build/
+/dist/
+
+# ---------- 编译中间文件 ----------
+*.obj
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.res
+*.log
+
+# 开发辅助工具的二进制（源码保留）
+/tools/*.exe
+/tools/*.obj
+
+# ---------- 本机配置 ----------
+settings.ini
+*.ini
+
+# ---------- 临时素材 ----------
+/shots/tickdump/
+
+# ---------- 系统文件 ----------
+Thumbs.db
+desktop.ini
+.DS_Store
