@@ -1,6 +1,7 @@
 # 计时器 · Exam Timer
 
 [![build](https://github.com/cy-whm/exam-timer/actions/workflows/build.yml/badge.svg)](https://github.com/cy-whm/exam-timer/actions/workflows/build.yml)
+[![release](https://img.shields.io/github/v/release/cy-whm/exam-timer)](https://github.com/cy-whm/exam-timer/releases)
 ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-0078D6)
 ![runtime](https://img.shields.io/badge/runtime-none-brightgreen)
 ![license](https://img.shields.io/badge/license-MIT-green)
@@ -48,9 +49,11 @@
 
 ## 下载与运行
 
-1. 到 [Releases](../../releases) 下载 `计时器.exe`
-2. 双击运行（Windows 10 1607+ / Windows 11，x64）
+1. 到 [Releases](../../releases) 下载附件 `Timer-vX.Y.Z-win64.exe`（Release 资产用 ASCII 名，避免各平台下载时的编码问题）
+2. 改名为 `计时器.exe`（可选，程序不依赖文件名），双击运行（Windows 10 1607+ / Windows 11，x64）
 3. 绿色便携：不需要安装，删掉文件即卸载
+
+也可以不用 Release，直接按下方「从源码构建」自己编译。
 
 **首次运行可能被 Windows 拦下**：本程序没有购买代码签名证书，属于「未知发布者」。两种情况处理方式不同：
 
