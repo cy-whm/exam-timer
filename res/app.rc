@@ -1,4 +1,4 @@
-#pragma code_page(65001)
+﻿#pragma code_page(65001)
 #include <windows.h>
 
 #define IDI_APP 101
@@ -8,8 +8,8 @@ IDI_APP ICON "app.ico"
 1 24 "app.manifest"
 
 VS_VERSION_INFO VERSIONINFO
-FILEVERSION 1,0,0,0
-PRODUCTVERSION 1,0,0,0
+FILEVERSION 2,4,0,0
+PRODUCTVERSION 2,4,0,0
 FILEFLAGSMASK 0x3fL
 FILEFLAGS 0x0L
 FILEOS 0x40004L
@@ -22,11 +22,11 @@ BEGIN
         BEGIN
             VALUE "CompanyName", "Local"
             VALUE "FileDescription", "计时器"
-            VALUE "FileVersion", "1.0.0.0"
+            VALUE "FileVersion", "2.4.0.0"
             VALUE "InternalName", "Timer"
             VALUE "OriginalFilename", "Timer.exe"
             VALUE "ProductName", "计时器"
-            VALUE "ProductVersion", "1.0.0.0"
+            VALUE "ProductVersion", "2.4.0.0"
         END
     END
     BLOCK "VarFileInfo"
